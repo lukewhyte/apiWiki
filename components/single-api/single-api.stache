@@ -1,0 +1,19 @@
+{{#ifEditing}}
+  <div class="name">
+    <input id="name" class="apiProp" type="text" value="{{api.name}}" />
+  </div>
+  <div class="url">
+    <input id="url" class="apiProp" type="text" value="{{api.url}}" />
+  </div>
+  <button id="save-api" can-click="save">Save API</button>
+{{/ifEditing}}
+
+{{!Everything below this line is shown when not editing}}
+{{^ifEditing}}
+  <div class="name">
+    <p>{{api.name}}</p>
+  </div>
+  <div class="url">
+    <p><a href="{{api.url}}" target="_blank">{{api.url}}</a></p>
+  </div>
+{{/ifEditing}}

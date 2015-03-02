@@ -1,0 +1,5 @@
+<ul>
+  {{#each apis}}
+    <li can-click="{getSingleApi}">{{name}}</li>
+  {{/each}}
+</ul>

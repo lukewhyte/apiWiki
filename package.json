@@ -1,0 +1,35 @@
+{
+  "name": "apiWiki",
+  "version": "1.0.0",
+  "description": "Find Some Data",
+  "main": "apiWiki.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukewhyte/apiwiki"
+  },
+  "keywords": [
+    "api",
+    "sdk",
+    "wiki"
+  ],
+  "author": "Luke Whyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukewhyte/apiwiki/issues"
+  },
+  "homepage": "http://apiwiki.org",
+  "dependencies": {
+    "can": "^2.2.0-alpha.10",
+    "express": "~3.1.0",
+    "mongoose": "~3.5.5",
+    "path": "~0.4.9"
+  },
+  "devDependencies": {
+    "steal": "^0.6.0",
+    "steal-qunit": "0.0.2",
+    "steal-tools": "^0.6.0"
+  }
+}

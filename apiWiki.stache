@@ -1,0 +1,11 @@
+<can-import from="components/single-api/" />
+<can-import from="components/api-list/" />
+
+<api-wiki>
+  {{#isState 'single'}}
+    <single-api api="{currApi}"></single-api>
+  {{/isState}}
+  {{#isState 'all'}}
+    <api-list></api-list>
+  {{/isState}}
+</api-wiki>
